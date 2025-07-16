@@ -6,7 +6,7 @@ function Header() {
 
   return (
     <>
-      <header className="text-primary bg-secondary w-full">
+      <header className="text-primary bg-secondary sticky top-0 z-50 w-full">
         <div className="w-full px-4 transition-all duration-[50ms] md:container md:mx-auto md:px-10 lg:px-20">
           <div className="flex flex-row items-center justify-between gap-4 py-4 md:flex-row md:gap-6">
             <div className="flex w-full items-center justify-between gap-8 md:w-auto lg:gap-16">

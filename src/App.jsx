@@ -4,6 +4,9 @@ import ShopCTA from "./components/shopCTA";
 import Products from "./components/products";
 import Verhaal from "./components/verhaal";
 import Verhaal2 from "./components/verhaal2";
+import Marque from "./components/marque";
+import Services from "./components/services";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -15,7 +18,10 @@ function App() {
         <Products />
         <Verhaal />
         <Verhaal2 />
+        <Marque />
+        <Services />
       </main>
+      <Footer />
     </>
   );
 }
