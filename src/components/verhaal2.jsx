@@ -10,7 +10,7 @@ function Verhaal2() {
           Het verhaal van Desiréé is ontstaan in 1903
         </h6>
         <div className="grid grid-cols-1 items-center justify-center gap-12 lg:grid-cols-2">
-          <div className="relative">
+          <div className="relative overflow-hidden">
             <img src={history} className="-rotate-12" alt="" />
             <img
               src={waffel}
@@ -21,7 +21,7 @@ function Verhaal2() {
             <img
               src={ticket}
               alt=""
-              className="absolute -top-20 left-300 h-auto w-50"
+              className="absolute -top-20 left-300 hidden h-auto w-50 2xl:block"
             />
           </div>
           <div className="relative flex items-center justify-center">
